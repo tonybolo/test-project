@@ -4,9 +4,9 @@ import { Context } from 'koa'
 @Controller('/')
 export default class {
   @Get('/')
-  async facebook(ctx: Context) {
+  //async facebook(ctx: Context) {
     ctx.body = "Cool cool cool cool, noice"
-  }
+  //}
 }
 
-//second commit 4
+//second commit 6
