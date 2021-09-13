@@ -6,7 +6,9 @@ export default class {
   @Get('/')
   async facebook(ctx: Context) {
     ctx.body = "Cool cool cool cool, noice"
+    console.log('We are in async facebook...')
   }
 }
 
-//second commit 9
+// I don't know what's wrong
+//second commit 11
